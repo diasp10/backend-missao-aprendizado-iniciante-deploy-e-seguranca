@@ -1,11 +1,11 @@
-//fix thunderclient http://localhost:3000/personagem/5
+require('dotenv').config()
 const express = require('express')
 const { MongoClient, ObjectId } = require('mongodb')
 const app = express()
 const port = 3000
 
 //Preparamos as informacoes de acesso ao banco de dados
-const dburl = `mongodb+srv://admin:K2etdsaaw345wwerr8@cluster0.6vzbkgd.mongodb.net`
+const dburl = process.env.DATABASE_URL
 const dbname = `MongoDB-Intro-e-Implementacao`
 
 //Declaramos a funcao main()
