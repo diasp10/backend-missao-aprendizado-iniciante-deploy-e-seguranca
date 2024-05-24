@@ -1,7 +1,7 @@
 {
-  "name": "backend-missao-mongodb-intro-e-implementacao",
+  "name": "backend-missao-iniciante-deploy-e-seguranca",
   "version": "1.0.0",
-  "description": "Projeto da missão de aprendizado da profissão Dev Backend JavaScript, nivel iniciante: MongoDB: Intro e Implementação.",
+  "description": "Projeto da missão de aprendizado da profissão Dev Backend JavaScript, nivel iniciante: deploy-e-seguranca",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
